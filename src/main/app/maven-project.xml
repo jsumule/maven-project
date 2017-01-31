@@ -24,6 +24,7 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 		<spring:bean id="Bean" name="Bean" class="com.mulesoft.training.Database" />
 	</spring:beans>
 
+
 	<!-- returns static message: Hello Maven -->
 	<flow name="mavenFlow">
 		<http:listener config-ref="HTTP_Listener_Configuration" path="/maven" doc:name="HTTP" />
